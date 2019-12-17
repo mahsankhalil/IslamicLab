@@ -48,7 +48,7 @@ public class getSurah extends HttpServlet {
             
             QuranArabicText qat = new QuranArabicText();
             //out.print("lenght : "+(ayatstart+ayatcount-1));
-            String[] str = qat.GetData(ayatstart, ayatstart+ayatcount);
+            String[] str = qat.GetData(ayatstart, ayatstart+ayatcount-1);
             
            
             
